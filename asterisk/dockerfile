@@ -40,7 +40,7 @@ RUN apt update -qq && \
 
 RUN useradd --system asterisk
 
-ENV ASTERISK_VERSION=20.6.0
+ENV ASTERISK_VERSION=20.7.0
 
 RUN mkdir /usr/src/asterisk
 WORKDIR /usr/src/asterisk
